@@ -26,16 +26,12 @@ public class NewTest {
     @BeforeTest
     public void beforeTest() throws MalformedURLException {
 //        driver = new ChromeDriver();
+        System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
 
         ChromeOptions options = new ChromeOptions();
 //        options.setExperimentalOption("useAutomationExtension", false);
          driver = new ChromeDriver(options);
 //
-//        return;
-
-
-        System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
-        DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 
 //         driver = new RemoteWebDriver(new URL("192.168.120:4441/wd/hub",);
 //        ChromeOptions options = new ChromeOptions();
