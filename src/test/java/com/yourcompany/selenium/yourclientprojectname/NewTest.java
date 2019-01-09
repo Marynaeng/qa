@@ -34,7 +34,7 @@ public class NewTest {
 //        return;
 
 
-//        System.setProperty("webdriver.chrome.driver", "E:\\qa\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
 
 //         driver = new RemoteWebDriver(new URL("192.168.120:4441/wd/hub",);
