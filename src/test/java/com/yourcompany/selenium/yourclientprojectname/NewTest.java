@@ -29,14 +29,15 @@ public class NewTest {
 
         ChromeOptions options = new ChromeOptions();
 //        options.setExperimentalOption("useAutomationExtension", false);
-//         driver = new ChromeDriver(options);
+         driver = new ChromeDriver(options);
 //
 //        return;
 
 
-        System.setProperty("webdriver.chrome.driver", "E:\\qa\\chromedriver_win32\\chromedriver.exe");
-//        DesiredCapabilities capabilities = new DesiredCapabilities();
-driver = new ChromeDriver(options);
+//        System.setProperty("webdriver.chrome.driver", "E:\\qa\\chromedriver_win32\\chromedriver.exe");
+        DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+
+//         driver = new RemoteWebDriver(new URL("192.168.120:4441/wd/hub",);
 //        ChromeOptions options = new ChromeOptions();
 //        options.addArguments("start-maximized"); // open Browser in maximized mode
 //        options.addArguments("disable-infobars"); // disabling infobars
