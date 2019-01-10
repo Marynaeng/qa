@@ -25,7 +25,7 @@ public class NewTest {
     }
     @BeforeTest
     public void beforeTest() throws MalformedURLException {
-         driver = new RemoteWebDriver(new URL("http://192.168.120:9515/wd/hub"), DesiredCapabilities.chrome());
+         driver = new RemoteWebDriver(new URL("http://192.168.120:9515"), DesiredCapabilities.chrome());
     }
     @AfterTest
     public void afterTest() {
