@@ -25,7 +25,15 @@ public class NewTest {
     }
     @BeforeTest
     public void beforeTest() throws MalformedURLException {
-         driver = new RemoteWebDriver(new URL("http://192.168.120:9515"), DesiredCapabilities.chrome());
+         ChromeOptions theOptions = new ChromeOptions();
+        theOptions.addArguments("headless");
+        theOptions.addArguments("disable-gpu");
+        theOptions.addArguments("–no-sandbox");
+theOptions.addArguments("–disable-dev-shm-usage");
+
+        DesiredCapabilities theCapabilities = DesiredCapabilities.chrome();
+        theCapabilities.setCapability(ChromeOptions.CAPABILITY, theOptions);
+         driver = new RemoteWebDriver(new URL("http://192.168.120:9515"), theCapabilities);
     }
     @AfterTest
     public void afterTest() {
