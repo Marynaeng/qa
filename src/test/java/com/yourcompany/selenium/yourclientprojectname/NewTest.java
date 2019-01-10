@@ -25,24 +25,7 @@ public class NewTest {
     }
     @BeforeTest
     public void beforeTest() throws MalformedURLException {
-//        driver = new ChromeDriver();
-        System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
-
-        ChromeOptions options = new ChromeOptions();
-//        options.setExperimentalOption("useAutomationExtension", false);
-         driver = new ChromeDriver(options);
-//
-
-//         driver = new RemoteWebDriver(new URL("192.168.120:4441/wd/hub",);
-//        ChromeOptions options = new ChromeOptions();
-//        options.addArguments("start-maximized"); // open Browser in maximized mode
-//        options.addArguments("disable-infobars"); // disabling infobars
-//        options.addArguments("--disable-extensions"); // disabling extensions
-//        options.addArguments("--disable-gpu"); // applicable to windows os only
-//        options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
-//        options.addArguments("--no-sandbox"); // Bypass OS security model
-//
-//         driver = new RemoteWebDriver(new URL("http://192.168.120:4441/wd/hub"), DesiredCapabilities.chrome());
+         driver = new RemoteWebDriver(new URL("http://192.168.120:9515/wd/hub"), DesiredCapabilities.chrome());
     }
     @AfterTest
     public void afterTest() {
