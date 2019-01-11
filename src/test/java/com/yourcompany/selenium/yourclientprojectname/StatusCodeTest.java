@@ -8,9 +8,7 @@ public class StatusCodeTest {
 
     @Test
     public void testEasy() {
-//        driver.get("http://demo.guru99.com/test/guru99home/");
-        String url = "https://google.com";
-        int statusCode =  RestAssured.get(url).statusCode();
-        Assert.assertEquals(200, statusCode);
+        Assert.assertEquals(RestAssured.get("https://google.com").statusCode(), 200);
+        Assert.assertEquals(RestAssured.get("https://google.com/asdasdadadasd").statusCode(), 200);
     }
 }
