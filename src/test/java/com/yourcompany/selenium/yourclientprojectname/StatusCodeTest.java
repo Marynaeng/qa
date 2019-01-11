@@ -11,6 +11,6 @@ public class StatusCodeTest {
 //        driver.get("http://demo.guru99.com/test/guru99home/");
         String url = "https://google.com";
         int statusCode =  RestAssured.get(url).statusCode();
-        Assert.assertEquals(200, statusCode);
+        Assert.assertEquals(202, statusCode);
     }
 }
