@@ -9,6 +9,6 @@ public class StatusCodeTest {
     @Test
     public void testEasy() {
         Assert.assertEquals(RestAssured.get("https://google.com").statusCode(), 200);
-        Assert.assertEquals(RestAssured.get("https://google.com/asdasdadadasd").statusCode(), 200);
+        Assert.assertEquals(RestAssured.get("https://google.com/asdasdadadasd").statusCode(), 404);
     }
 }
