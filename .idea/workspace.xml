@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b69a5319-3ff2-405c-b068-bf905a22ed5d" name="Default Changelist" comment="Default Changelist">
+    <list default="true" id="b69a5319-3ff2-405c-b068-bf905a22ed5d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/StatusCodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/StatusCodeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/NewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/NewTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/yourcompany/selenium/yourclientprojectname/NewTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/yourcompany/selenium/yourclientprojectname/NewTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,28 +28,32 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
               <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
             </state>
           </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/NewTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+            <state relative-caret-position="170">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#1168#1169#0" expanded="true" />
+                <element signature="e#1197#1198#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/StatusCodeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="187">
+              <caret line="11" column="82" selection-start-line="11" selection-start-column="82" selection-end-line="11" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,8 +103,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/WhenSearchingForDrupalUsingGoogleTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/NewTest.kt" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/NewTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/StatusCodeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/NewTest.java" />
       </list>
     </option>
   </component>
@@ -159,9 +162,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
-    <option name="width" value="1922" />
-    <option name="height" value="1053" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -169,6 +172,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,14 +211,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547233029532" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547237527730" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -235,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.StatusCodeTest">
+  <component name="RunManager" selected="TestNG.NewTest">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -575,8 +578,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.StatusCodeTest" />
         <item itemvalue="TestNG.NewTest" />
+        <item itemvalue="TestNG.StatusCodeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -606,7 +609,8 @@
       <workItem from="1547042301122" duration="1373000" />
       <workItem from="1547139969999" duration="1482000" />
       <workItem from="1547194879923" duration="537000" />
-      <workItem from="1547232705589" duration="303000" />
+      <workItem from="1547232705589" duration="1223000" />
+      <workItem from="1547236862664" duration="617000" />
     </task>
     <task id="LOCAL-00001" summary="bdfgdfgdf">
       <created>1547043041484</created>
@@ -650,43 +654,64 @@
       <option name="project" value="LOCAL" />
       <updated>1547195357444</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Default Changelist">
+      <created>1547233027476</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1547233027476</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Default Changelist">
+      <created>1547233068055</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1547233068055</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Default Changelist">
+      <created>1547233232366</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1547233232366</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NewTest - 2019.01.10 at 19h 30m 33s.xml">
-      <configuration name="NewTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="NewTest - 2019.01.11 at 20h 54m 02s.xml">
-      <configuration name="NewTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="NewTest - 2019.01.11 at 20h 54m 14s.xml">
-      <configuration name="NewTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="NewTest - 2019.01.11 at 20h 54m 25s.xml">
-      <configuration name="NewTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="NewTest - 2019.01.11 at 20h 54m 41s.xml">
-      <configuration name="NewTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="NewTest - 2019.01.11 at 20h 54m 54s.xml">
-      <configuration name="NewTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="NewTest - 2019.01.11 at 20h 55m 16s.xml">
-      <configuration name="NewTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="StatusCodeTest - 2019.01.11 at 20h 55m 27s.xml">
-      <configuration name="StatusCodeTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="StatusCodeTest - 2019.01.11 at 20h 55m 51s.xml">
-      <configuration name="StatusCodeTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="StatusCodeTest - 2019.01.11 at 20h 56m 09s.xml">
       <configuration name="StatusCodeTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="StatusCodeTest - 2019.01.11 at 20h 56m 54s.xml">
+      <configuration name="StatusCodeTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="StatusCodeTest - 2019.01.11 at 22h 01m 45s.xml">
+      <configuration name="StatusCodeTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="StatusCodeTest - 2019.01.11 at 22h 02m 12s.xml">
+      <configuration name="StatusCodeTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NewTest - 2019.01.11 at 22h 02m 23s.xml">
+      <configuration name="NewTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NewTest - 2019.01.11 at 22h 04m 34s.xml">
+      <configuration name="NewTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NewTest - 2019.01.11 at 22h 05m 04s.xml">
+      <configuration name="NewTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NewTest - 2019.01.11 at 22h 08m 10s.xml">
+      <configuration name="NewTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NewTest - 2019.01.11 at 22h 08m 36s.xml">
+      <configuration name="NewTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="NewTest - 2019.01.11 at 22h 10m 01s.xml">
+      <configuration name="NewTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19431000" />
+    <option name="totallyTimeSpent" value="20968000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -698,11 +723,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1922" height="1053" extended-state="0" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Archetypes" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25241676" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.5136911" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -710,12 +734,10 @@
       <window_info id="Designer" order="5" />
       <window_info id="UI Designer" order="6" />
       <window_info id="Capture Tool" order="7" />
-      <window_info anchor="bottom" id="ConsoleMavenPlugin" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info id="Archetypes" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32826087" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33041576" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -723,9 +745,10 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32826087" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32826087" />
-      <window_info anchor="right" id="Maven-2 Build" />
-      <window_info anchor="right" id="Maven" weight="0.32975295" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32822758" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="ConsoleMavenPlugin" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -736,6 +759,8 @@
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info anchor="right" id="Maven" order="10" weight="0.32975295" />
+      <window_info anchor="right" id="Maven-2 Build" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -759,6 +784,14 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/Capabilities.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/AbstractCapabilities.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar!/org/openqa/selenium/chrome/ChromeOptions.class" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/2.45.0/selenium-chrome-driver-2.45.0.jar!/org/openqa/selenium/chrome/ChromeDriver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -773,27 +806,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/StatusCodeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        <state relative-caret-position="187">
+          <caret line="11" column="82" selection-start-line="11" selection-start-column="82" selection-end-line="11" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/NewTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/StatusCodeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        <state relative-caret-position="170">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1168#1169#0" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
           </folding>
         </state>
       </provider>
