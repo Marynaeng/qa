@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b69a5319-3ff2-405c-b068-bf905a22ed5d" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/DownloadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/LoginNotexistentUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/PrintTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/RegistrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b69a5319-3ff2-405c-b068-bf905a22ed5d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/NewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/NewTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/StatusCodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/StatusCodeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/yourcompany/selenium/yourclientprojectname/NewTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/yourcompany/selenium/yourclientprojectname/NewTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -260,7 +249,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547405054097" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547405230594" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -623,7 +612,7 @@
       <workItem from="1547236862664" duration="617000" />
       <workItem from="1547300857072" duration="16498000" />
       <workItem from="1547398120884" duration="2952000" />
-      <workItem from="1547403059068" duration="1910000" />
+      <workItem from="1547403059068" duration="2316000" />
     </task>
     <task id="LOCAL-00001" summary="bdfgdfgdf">
       <created>1547043041484</created>
@@ -688,7 +677,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547233232366</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Default Changelist">
+      <created>1547405087895</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1547405087895</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -724,7 +720,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42328000" />
+    <option name="totallyTimeSpent" value="42734000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
