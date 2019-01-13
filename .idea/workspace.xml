@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b69a5319-3ff2-405c-b068-bf905a22ed5d" name="Default Changelist" comment="">
+    <list default="true" id="b69a5319-3ff2-405c-b068-bf905a22ed5d" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/DownloadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/LoginNotexistentUserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/PrintTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/RegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/NewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/NewTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/StatusCodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/StatusCodeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/yourcompany/selenium/yourclientprojectname/NewTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/yourcompany/selenium/yourclientprojectname/NewTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,40 +29,26 @@
     </testPatterns>
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/qa1$com_yourcompany_selenium_yourclientprojectname_in_qa1.ic" NAME="com.yourcompany.selenium.yourclientprojectname in qa1 Coverage Results" MODIFIED="1547402717483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.yourcompany.selenium.yourclientprojectname.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/yourclientprojectname$WhenSearchingForDrupalUsingGoogleTest.ic" NAME="WhenSearchingForDrupalUsingGoogleTest Coverage Results" MODIFIED="1544382365726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.yourcompany.selenium.yourclientprojectname.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/qa1$DownloadTest.ic" NAME="DownloadTest Coverage Results" MODIFIED="1547402765940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.yourcompany.selenium.yourclientprojectname.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="201" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/NewTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="e#1168#1169#0" expanded="true" />
-                <element signature="e#1197#1198#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/StatusCodeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="82" selection-start-line="11" selection-start-column="82" selection-end-line="11" selection-end-column="82" />
+            <state relative-caret-position="76">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,19 +57,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/2.45.0/selenium-chrome-driver-2.45.0.jar!/org/openqa/selenium/chrome/ChromeDriver.class">
+        <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+            <state relative-caret-position="270">
+              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-firefox-driver/2.45.0/selenium-firefox-driver-2.45.0.jar!/org/openqa/selenium/firefox/FirefoxDriver.class">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/LoginNotexistentUserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="45" column="57" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="57" />
+            <state relative-caret-position="-3">
+              <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/RegistrationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/PrintTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/DownloadTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="99" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="99" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,6 +123,12 @@
     <findStrings>
       <find>capabilities</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -103,8 +140,15 @@
         <option value="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/WhenSearchingForDrupalUsingGoogleTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/NewTest.kt" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/StatusCodeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/NewTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/SmokeTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/RegistrationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/PrintTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/DownloadTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/StatusCodeTest.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/LoginNotexistentUserTest.java" />
       </list>
     </option>
   </component>
@@ -162,9 +206,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="830" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -173,35 +217,34 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="yourclientprojectname" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yourclientprojectname" type="462c0819:PsiDirectoryNode" />
+              <item name="qa1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="yourclientprojectname" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yourclientprojectname" type="462c0819:PsiDirectoryNode" />
+              <item name="qa1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="yourclientprojectname" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yourclientprojectname" type="462c0819:PsiDirectoryNode" />
+              <item name="qa1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="yourclientprojectname" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yourclientprojectname" type="462c0819:PsiDirectoryNode" />
+              <item name="qa1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="yourclientprojectname" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yourclientprojectname" type="462c0819:PsiDirectoryNode" />
+              <item name="qa1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -211,20 +254,21 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547237549871" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547405054097" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -238,7 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.NewTest">
+  <component name="RunManager" selected="TestNG.LoginNotexistentUserTest">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -322,19 +366,6 @@
       <testRegexps />
       <envs />
       <method />
-    </configuration>
-    <configuration name="WhenSearchingForDrupalUsingGoogleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yourcompany.selenium.yourclientprojectname.WhenSearchingForDrupalUsingGoogleTest" />
-      <module name="yourclientprojectname" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yourcompany.selenium.yourclientprojectname.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
@@ -425,8 +456,15 @@
       <setting name="depsClasspath" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="WhenSearchingForDrupalUsingGoogleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="yourclientprojectname" />
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.yourcompany.selenium.yourclientprojectname in qa1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="qa1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yourcompany.selenium.yourclientprojectname.*" />
@@ -434,14 +472,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.yourcompany.selenium.yourclientprojectname" />
-      <option name="MAIN_CLASS_NAME" value="com.yourcompany.selenium.yourclientprojectname.WhenSearchingForDrupalUsingGoogleTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
@@ -461,42 +492,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <module name="" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NewTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="yourclientprojectname" />
+    <configuration name="DownloadTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="qa1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yourcompany.selenium.yourclientprojectname.*" />
@@ -504,7 +501,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.yourcompany.selenium.yourclientprojectname" />
-      <option name="MAIN_CLASS_NAME" value="com.yourcompany.selenium.yourclientprojectname.NewTest" />
+      <option name="MAIN_CLASS_NAME" value="com.yourcompany.selenium.yourclientprojectname.DownloadTest" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
       <properties />
@@ -513,8 +510,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewTest.testEasy" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="yourclientprojectname" />
+    <configuration name="LoginNotexistentUserTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="qa1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yourcompany.selenium.yourclientprojectname.*" />
@@ -522,9 +519,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.yourcompany.selenium.yourclientprojectname" />
-      <option name="MAIN_CLASS_NAME" value="com.yourcompany.selenium.yourclientprojectname.NewTest" />
-      <option name="METHOD_NAME" value="testEasy" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.yourcompany.selenium.yourclientprojectname.LoginNotexistentUserTest" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
       <properties />
@@ -534,7 +529,7 @@
       </method>
     </configuration>
     <configuration name="StatusCodeTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="yourclientprojectname" />
+      <module name="qa1" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yourcompany.selenium.yourclientprojectname.*" />
@@ -543,6 +538,18 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.yourcompany.selenium.yourclientprojectname" />
       <option name="MAIN_CLASS_NAME" value="com.yourcompany.selenium.yourclientprojectname.StatusCodeTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/test/IdeaProjects/qa1/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="qa1" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
       <properties />
@@ -570,16 +577,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.WhenSearchingForDrupalUsingGoogleTest" />
-      <item itemvalue="JUnit.WhenSearchingForDrupalUsingGoogleTest" />
-      <item itemvalue="TestNG.NewTest" />
-      <item itemvalue="TestNG.NewTest.testEasy" />
+      <item itemvalue="JUnit.com.yourcompany.selenium.yourclientprojectname in qa1" />
+      <item itemvalue="TestNG.DownloadTest" />
+      <item itemvalue="TestNG./Users/test/IdeaProjects/qa1/testng.xml" />
       <item itemvalue="TestNG.StatusCodeTest" />
+      <item itemvalue="TestNG.LoginNotexistentUserTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.NewTest" />
+        <item itemvalue="TestNG.LoginNotexistentUserTest" />
+        <item itemvalue="TestNG./Users/test/IdeaProjects/qa1/testng.xml" />
         <item itemvalue="TestNG.StatusCodeTest" />
+        <item itemvalue="TestNG.DownloadTest" />
+        <item itemvalue="JUnit.com.yourcompany.selenium.yourclientprojectname in qa1" />
       </list>
     </recent_temporary>
   </component>
@@ -611,6 +621,9 @@
       <workItem from="1547194879923" duration="537000" />
       <workItem from="1547232705589" duration="1223000" />
       <workItem from="1547236862664" duration="617000" />
+      <workItem from="1547300857072" duration="16498000" />
+      <workItem from="1547398120884" duration="2952000" />
+      <workItem from="1547403059068" duration="1910000" />
     </task>
     <task id="LOCAL-00001" summary="bdfgdfgdf">
       <created>1547043041484</created>
@@ -679,39 +692,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StatusCodeTest - 2019.01.11 at 20h 56m 09s.xml">
+    <history-entry file="_Users_test_IdeaProjects_qa1_testng_xml - 2019.01.13 at 20h 14m 37s.xml">
+      <configuration name="/Users/test/IdeaProjects/qa1/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_test_IdeaProjects_qa1_testng_xml - 2019.01.13 at 20h 16m 50s.xml">
+      <configuration name="/Users/test/IdeaProjects/qa1/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="StatusCodeTest - 2019.01.13 at 20h 17m 49s.xml">
       <configuration name="StatusCodeTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="StatusCodeTest - 2019.01.11 at 20h 56m 54s.xml">
-      <configuration name="StatusCodeTest" configurationId="TestNG" />
+    <history-entry file="_Users_test_IdeaProjects_qa1_testng_xml - 2019.01.13 at 20h 19m 20s.xml">
+      <configuration name="/Users/test/IdeaProjects/qa1/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="StatusCodeTest - 2019.01.11 at 22h 01m 45s.xml">
-      <configuration name="StatusCodeTest" configurationId="TestNG" />
+    <history-entry file="LoginNotexistentUserTest - 2019.01.13 at 20h 22m 20s.xml">
+      <configuration name="LoginNotexistentUserTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="StatusCodeTest - 2019.01.11 at 22h 02m 12s.xml">
-      <configuration name="StatusCodeTest" configurationId="TestNG" />
+    <history-entry file="LoginNotexistentUserTest - 2019.01.13 at 20h 23m 23s.xml">
+      <configuration name="LoginNotexistentUserTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewTest - 2019.01.11 at 22h 02m 23s.xml">
-      <configuration name="NewTest" configurationId="TestNG" />
+    <history-entry file="LoginNotexistentUserTest - 2019.01.13 at 20h 24m 18s.xml">
+      <configuration name="LoginNotexistentUserTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewTest - 2019.01.11 at 22h 04m 34s.xml">
-      <configuration name="NewTest" configurationId="TestNG" />
+    <history-entry file="LoginNotexistentUserTest - 2019.01.13 at 20h 24m 45s.xml">
+      <configuration name="LoginNotexistentUserTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewTest - 2019.01.11 at 22h 05m 04s.xml">
-      <configuration name="NewTest" configurationId="TestNG" />
+    <history-entry file="LoginNotexistentUserTest - 2019.01.13 at 20h 25m 44s.xml">
+      <configuration name="LoginNotexistentUserTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="NewTest - 2019.01.11 at 22h 08m 10s.xml">
-      <configuration name="NewTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="NewTest - 2019.01.11 at 22h 08m 36s.xml">
-      <configuration name="NewTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="NewTest - 2019.01.11 at 22h 10m 01s.xml">
-      <configuration name="NewTest" configurationId="TestNG" />
+    <history-entry file="LoginNotexistentUserTest - 2019.01.13 at 20h 28m 18s.xml">
+      <configuration name="LoginNotexistentUserTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20968000" />
+    <option name="totallyTimeSpent" value="42328000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -723,10 +736,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.5136911" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20386267" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -737,15 +750,15 @@
       <window_info id="Archetypes" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33041576" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3292683" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39972898" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32826087" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32822758" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32791328" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="ConsoleMavenPlugin" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -761,6 +774,7 @@
       <window_info anchor="right" id="Maven Projects" order="9" />
       <window_info anchor="right" id="Maven" order="10" weight="0.32975295" />
       <window_info anchor="right" id="Maven-2 Build" order="11" />
+      <window_info anchor="right" id="Coverage" order="12" side_tool="true" visible="true" weight="0.3297568" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -784,45 +798,97 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/Capabilities.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/AbstractCapabilities.class" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar!/org/openqa/selenium/chrome/ChromeOptions.class" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-firefox-driver/2.45.0/selenium-firefox-driver-2.45.0.jar!/org/openqa/selenium/firefox/FirefoxDriver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        <state relative-caret-position="120">
+          <caret line="45" column="57" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-chrome-driver/2.45.0/selenium-chrome-driver-2.45.0.jar!/org/openqa/selenium/chrome/ChromeDriver.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        <state relative-caret-position="45">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-firefox-driver/2.45.0/selenium-firefox-driver-2.45.0.jar!/org/openqa/selenium/firefox/FirefoxDriver.class">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/PrintTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="45" column="57" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/StatusCodeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="82" selection-start-line="11" selection-start-column="82" selection-end-line="11" selection-end-column="82" />
+        <state relative-caret-position="300">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/DownloadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="99" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="99" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/NewTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="584">
+          <caret line="45" column="39" lean-forward="true" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
           <folding>
-            <element signature="e#1168#1169#0" expanded="true" />
-            <element signature="e#1197#1198#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/StatusCodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/LoginNotexistentUserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="4" column="47" lean-forward="true" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/RegistrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -867,7 +933,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -879,7 +945,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>yourclientprojectname</last-edited>
+          <last-edited>qa1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
