@@ -1,14 +1,14 @@
 package com.yourcompany.selenium.yourclientprojectname;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.io.File;
 import java.util.concurrent.TimeUnit;
 
 public class LoginTest {
@@ -39,6 +39,9 @@ public class LoginTest {
         Thread.sleep(2000);
         WebElement usernameElement = driver.findElement(By.xpath("/html/body/header/div/div/div[3]/div/div[2]/span"));
         Assert.assertEquals(usernameElement.getText(), "230015664");
+
+        File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(scrFile, new File("/Users/test/Downloads/WebDriver/loginTest.png"));
 
 
     }

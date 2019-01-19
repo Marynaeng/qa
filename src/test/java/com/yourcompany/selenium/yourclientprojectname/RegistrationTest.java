@@ -1,14 +1,14 @@
 package com.yourcompany.selenium.yourclientprojectname;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.io.File;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
@@ -40,6 +40,10 @@ public class RegistrationTest {
         URL currentUrl = new URL(driver.getCurrentUrl());
 
         Assert.assertEquals(currentUrl.getHost(), "www.paypal.com");
+
+
+        File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        FileUtils.copyFile(scrFile, new File("/Users/test/Downloads/WebDriver/RegistrationRest.png"));
 
     }
     @AfterClass
