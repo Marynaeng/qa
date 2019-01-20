@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b69a5319-3ff2-405c-b068-bf905a22ed5d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/CopyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/DownloadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/DownloadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/PrintTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/PrintTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/RegistrationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/CopyTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -61,6 +56,15 @@
                 <element signature="e#1515#1516#0" expanded="true" />
                 <element signature="e#1544#1545#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -162,6 +166,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/DownloadTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/yourcompany/selenium/yourclientprojectname/CopyTest.java" />
         <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -273,7 +278,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547928227373" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547979690690" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -639,7 +644,7 @@
       <workItem from="1547300857072" duration="16498000" />
       <workItem from="1547398120884" duration="2952000" />
       <workItem from="1547403059068" duration="3864000" />
-      <workItem from="1547917489045" duration="8826000" />
+      <workItem from="1547917489045" duration="9814000" />
     </task>
     <task id="LOCAL-00001" summary="bdfgdfgdf">
       <created>1547043041484</created>
@@ -718,7 +723,21 @@
       <option name="project" value="LOCAL" />
       <updated>1547405469421</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Default Changelist">
+      <created>1547928203450</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1547928203450</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Default Changelist">
+      <created>1547928362934</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1547928362934</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -754,7 +773,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53108000" />
+    <option name="totallyTimeSpent" value="54096000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -767,9 +786,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="830" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2067239" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2067239" />
       <window_info id="Structure" order="1" weight="0.24964234" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -780,7 +798,7 @@
       <window_info id="Archetypes" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3292683" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3292683" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39972898" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -973,6 +991,13 @@
             <element signature="e#1515#1516#0" expanded="true" />
             <element signature="e#1544#1545#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
