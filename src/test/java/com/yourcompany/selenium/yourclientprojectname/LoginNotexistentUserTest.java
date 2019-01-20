@@ -1,8 +1,8 @@
 package com.yourcompany.selenium.yourclientprojectname;
 
+import com.yourcompany.selenium.yourclientprojectname.Common.ChromeDriver.Factory.ChromeDriverFactory;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -12,8 +12,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.io.File;
-import java.net.URL;
-import java.util.concurrent.TimeUnit;
 
 
 public class LoginNotexistentUserTest {
@@ -23,10 +21,7 @@ public class LoginNotexistentUserTest {
 
     @BeforeClass
     public static void setup() {
-        System.setProperty("webdriver.chrome.driver", "/Users/test/Downloads/WebDriver/chromedriver");
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver = ChromeDriverFactory.create();
         driver.get("https://www.aresearchguide.com");
     }
 
@@ -42,12 +37,12 @@ public class LoginNotexistentUserTest {
         logButton.click();
         Wait<WebDriver> wait = new WebDriverWait(driver, 2, 0);
         wait.until(ExpectedConditions.textToBePresentInElement(driver.findElement(By.xpath("//*[@id=\"modal-login\"]/form/p[2]")),
-            "ERROR: Invalid email address. Lost your password?"));
+                "ERROR: Invalid email address. Lost your password?"));
 //Thread.sleep(1000);
         WebElement error = driver.findElement(By.xpath("//*[@id=\"modal-login\"]/form/p[2]"));
         Assert.assertEquals(error.getText(), "ERROR: Invalid email address. Lost your password?");
 
-        File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 // Now you can do whatever you need to do with it, for example copy somewhere
         FileUtils.copyFile(scrFile, new File("/Users/test/Downloads/WebDriver/loginNot.png"));
     }

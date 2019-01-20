@@ -1,33 +1,23 @@
 package com.yourcompany.selenium.yourclientprojectname;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.Platform;
-import org.openqa.selenium.UnexpectedAlertBehaviour;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeDriverService;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxProfile;
-import org.openqa.selenium.remote.CapabilityType;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.Assert;
-import org.testng.annotations.Test;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
-import java.net.URL;
 
 public class NewTest {
     private WebDriver driver;
+
     @Test
     public void testEasy() {
         /////driver.get("http://demo.guru99.com/test/guru99home/");
         //String title = driver.getTitle();
         Assert.assertEquals("Demo Guru99 Page", "Demo Guru99 Page");
     }
+
     @BeforeTest
     public void beforeTest() throws MalformedURLException {
 //        ChromeOptions chromeOptions = new ChromeOptions();
@@ -46,6 +36,7 @@ public class NewTest {
 //         driver = new RemoteWebDriver(new URL("http://192.168.0.103:4444/wd/hub"), DesiredCapabilities.chrome());
 
     }
+
     @AfterTest
     public void afterTest() {
 
