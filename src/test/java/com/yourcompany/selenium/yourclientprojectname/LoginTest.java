@@ -22,7 +22,6 @@ public class LoginTest {
 
     @Test
     public void userLogin() throws Exception {
-        Thread.sleep(10000);
         driver.findElement(By.xpath("/html/body/header/div/div/div[3]/div/div[2]/span")).click();
 
         driver.findElement(By.xpath("//*[@id=\"modal-login\"]/form/div[1]/input")).sendKeys("marina.hotinetskaya@boosta.co");
@@ -33,7 +32,7 @@ public class LoginTest {
 //        Wait<WebDriver> wait = new WebDriverWait(driver, 3, 1);
 //        wait.until(ExpectedConditions.textToBePresentInElement(driver.findElement(By.xpath("/html/body/header/div/div/div[3]/div/div[2]/span")),
 //                "230015664"));
-        Thread.sleep(10000);
+        Thread.sleep(5000);
         WebElement usernameElement = driver.findElement(By.xpath("/html/body/header/div/div/div[3]/div/div[2]/span"));
         Assert.assertEquals(usernameElement.getText(), "230015664");
 
