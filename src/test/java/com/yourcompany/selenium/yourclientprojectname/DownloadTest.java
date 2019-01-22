@@ -27,7 +27,7 @@ public class DownloadTest {
         downloadEssay.click();
 
         Assert.assertEquals(driver.getCurrentUrl(), "https://www.aresearchguide.com/levels.html");
-        ChromeDriverFactory.takeScreenshot(driver, getClass().getName(), getClass().getEnclosingMethod().getName());
+        ChromeDriverFactory.takeScreenshot(driver, getClass().getName(), "test");
     }
 
     @AfterClass

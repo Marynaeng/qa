@@ -38,7 +38,7 @@ public class RegistrationTest {
 
         Assert.assertEquals(currentUrl.getHost(), "www.paypal.com");
 
-        ChromeDriverFactory.takeScreenshot(driver, getClass().getName(), getClass().getEnclosingMethod().getName());
+        ChromeDriverFactory.takeScreenshot(driver, getClass().getName(), "test");
     }
 
     @AfterClass

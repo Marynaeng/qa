@@ -35,7 +35,7 @@ public class LoginTest {
         WebElement usernameElement = driver.findElement(By.xpath("/html/body/header/div/div/div[3]/div/div[2]/span"));
         Assert.assertEquals(usernameElement.getText(), "230015664");
 
-        ChromeDriverFactory.takeScreenshot(driver, getClass().getName(), getClass().getEnclosingMethod().getName());
+        ChromeDriverFactory.takeScreenshot(driver, getClass().getName(), "test");
     }
 
     @AfterClass

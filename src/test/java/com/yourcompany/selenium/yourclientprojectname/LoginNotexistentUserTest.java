@@ -41,7 +41,7 @@ public class LoginNotexistentUserTest {
         WebElement error = driver.findElement(By.xpath("//*[@id=\"modal-login\"]/form/p[2]"));
         Assert.assertEquals(error.getText(), "ERROR: Invalid email address. Lost your password?");
 
-        ChromeDriverFactory.takeScreenshot(driver, getClass().getName(), getClass().getEnclosingMethod().getName());
+        ChromeDriverFactory.takeScreenshot(driver, getClass().getName(), "test");
     }
 
     @AfterClass

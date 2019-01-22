@@ -36,7 +36,7 @@ public class CopyTest {
 
         Assert.assertTrue(driver.findElements(By.id("modal2")).size() > 0);
         Thread.sleep(1000);
-        ChromeDriverFactory.takeScreenshot(driver, getClass().getName(), getClass().getEnclosingMethod().getName());
+        ChromeDriverFactory.takeScreenshot(driver, getClass().getName(), "test");
     }
 
     @AfterClass
