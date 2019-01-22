@@ -1,17 +1,17 @@
 package com.yourcompany.selenium.yourclientprojectname.Common.ChromeDriver.Factory;
 
-import org.openqa.selenium.Dimension;
-import org.openqa.selenium.Platform;
-import org.openqa.selenium.UnexpectedAlertBehaviour;
-import org.openqa.selenium.WebDriver;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
+import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 public class ChromeDriverFactory {
@@ -26,7 +26,7 @@ public class ChromeDriverFactory {
         }
 
         driver.manage().window().maximize();
-        driver.manage().window().setSize(new Dimension(1080,1020));
+        driver.manage().window().setSize(new Dimension(1920, 1080));
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
         return driver;
@@ -50,7 +50,27 @@ public class ChromeDriverFactory {
         capabilities.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.IGNORE);
         capabilities.setCapability(CapabilityType.SUPPORTS_JAVASCRIPT, true);
 //        capabilities.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
-       return new RemoteWebDriver(new URL("http://82.144.204.41:4444/wd/hub"), capabilities);
+        return new RemoteWebDriver(new URL("http://82.144.204.41:4444/wd/hub"), capabilities);
 
+    }
+
+    public static void takeScreenshot(WebDriver driver, String className, String method) {
+        if (driver instanceof TakesScreenshot) {
+            TakesScreenshot screenshotTakingDriver = (TakesScreenshot) driver;
+            try {
+                File localScreenshots = new File(new File("target"), "screenshots");
+                if (!localScreenshots.exists() || !localScreenshots.isDirectory()) {
+                    localScreenshots.mkdirs();
+                }
+                Date date = new Date();
+                File screenshot = new File(localScreenshots, className + "_" + method + "_" + date.getHours() + "." + date.getMinutes() + ".png");
+                FileUtils.moveFile(screenshotTakingDriver.getScreenshotAs(OutputType.FILE), screenshot);
+//                logger.info("Screenshot for class={} method={} saved in: {}", className, method, screenshot.getAbsolutePath());
+            } catch (Exception e1) {
+//                logger.error("Unable to take screenshot", e1);
+            }
+        } else {
+//            logger.info("Driver '{}' can't take screenshots so skipping it.", driver.getClass());
+        }
     }
 }

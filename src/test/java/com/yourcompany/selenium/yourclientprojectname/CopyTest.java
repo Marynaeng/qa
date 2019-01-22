@@ -3,15 +3,14 @@ package com.yourcompany.selenium.yourclientprojectname;
 import com.yourcompany.selenium.yourclientprojectname.Common.ChromeDriver.Factory.ChromeDriverFactory;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.io.File;
+import java.util.Date;
 import java.util.Random;
-import java.util.concurrent.TimeUnit;
 
 
 public class CopyTest {
@@ -30,7 +29,6 @@ public class CopyTest {
                 .sendKeys(Keys.chord(Keys.CONTROL, Keys.INSERT)); //#copy only for mac
         Thread.sleep(1000);
         Random random = new Random();
-//        String i = String.valueOf(random.nextInt());
         String email = random.nextInt() + "@gmail.com";
         driver.findElement(By.id("emailPopup")).sendKeys(email);
         driver.findElement(By.xpath("//*[@id=\"popapEmail\"]/button")).click();
@@ -38,9 +36,7 @@ public class CopyTest {
 
         Assert.assertTrue(driver.findElements(By.id("modal2")).size() > 0);
         Thread.sleep(1000);
-
-//        File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-//        FileUtils.copyFile(scrFile, new File("/Users/test/Downloads/WebDriver/Copy test.png"));
+        ChromeDriverFactory.takeScreenshot(driver, getClass().getName(), getClass().getEnclosingMethod().getName());
     }
 
     @AfterClass
