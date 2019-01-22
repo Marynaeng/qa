@@ -31,7 +31,7 @@ public class LoginTest {
 //        Wait<WebDriver> wait = new WebDriverWait(driver, 3, 1);
 //        wait.until(ExpectedConditions.textToBePresentInElement(driver.findElement(By.xpath("/html/body/header/div/div/div[3]/div/div[2]/span")),
 //                "230015664"));
-        Thread.sleep(5000);
+        Thread.sleep(2000);
         WebElement usernameElement = driver.findElement(By.xpath("/html/body/header/div/div/div[3]/div/div[2]/span"));
         Assert.assertEquals(usernameElement.getText(), "230015664");
 
