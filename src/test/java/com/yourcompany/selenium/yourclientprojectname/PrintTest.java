@@ -28,8 +28,8 @@ public class PrintTest {
 
         Assert.assertEquals(driver.getCurrentUrl(), "https://www.aresearchguide.com/levels.html");
 
-        File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(scrFile, new File("/Users/test/Downloads/WebDriver/PrintTest.png"));
+//        File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+//        FileUtils.copyFile(scrFile, new File("/Users/test/Downloads/WebDriver/PrintTest.png"));
     }
 
     @AfterClass

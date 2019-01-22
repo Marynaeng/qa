@@ -39,8 +39,8 @@ public class RegistrationTest {
         Assert.assertEquals(currentUrl.getHost(), "www.paypal.com");
 
 
-        File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(scrFile, new File("/Users/test/Downloads/WebDriver/RegistrationRest.png"));
+//        File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+//        FileUtils.copyFile(scrFile, new File("/Users/test/Downloads/WebDriver/RegistrationRest.png"));
 
     }
 

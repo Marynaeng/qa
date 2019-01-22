@@ -42,9 +42,9 @@ public class LoginNotexistentUserTest {
         WebElement error = driver.findElement(By.xpath("//*[@id=\"modal-login\"]/form/p[2]"));
         Assert.assertEquals(error.getText(), "ERROR: Invalid email address. Lost your password?");
 
-        File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-// Now you can do whatever you need to do with it, for example copy somewhere
-        FileUtils.copyFile(scrFile, new File("/Users/test/Downloads/WebDriver/loginNot.png"));
+//        File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+//// Now you can do whatever you need to do with it, for example copy somewhere
+//        FileUtils.copyFile(scrFile, new File("/Users/test/Downloads/WebDriver/loginNot.png"));
     }
 
     @AfterClass

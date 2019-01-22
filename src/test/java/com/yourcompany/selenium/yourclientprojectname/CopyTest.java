@@ -1,5 +1,6 @@
 package com.yourcompany.selenium.yourclientprojectname;
 
+import com.yourcompany.selenium.yourclientprojectname.Common.ChromeDriver.Factory.ChromeDriverFactory;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -19,10 +20,7 @@ public class CopyTest {
 
     @BeforeClass
     public static void setup() {
-        System.setProperty("webdriver.chrome.driver", "/Users/test/Downloads/WebDriver/chromedriver");
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver = ChromeDriverFactory.create();
         driver.get("https://www.aresearchguide.com/reasons-children-learn-foreign-language.html");
     }
 
@@ -41,8 +39,8 @@ public class CopyTest {
         Assert.assertTrue(driver.findElements(By.id("modal2")).size() > 0);
         Thread.sleep(1000);
 
-        File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(scrFile, new File("/Users/test/Downloads/WebDriver/Copy test.png"));
+//        File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+//        FileUtils.copyFile(scrFile, new File("/Users/test/Downloads/WebDriver/Copy test.png"));
     }
 
     @AfterClass

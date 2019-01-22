@@ -25,7 +25,7 @@ public class ChromeDriverFactory {
         }
 
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
         return driver;
     }
@@ -37,17 +37,17 @@ public class ChromeDriverFactory {
 
     public static WebDriver createRemote() throws MalformedURLException {
         ChromeOptions chromeOptions = new ChromeOptions();
-        chromeOptions.addArguments("--disable-notifications");
-        chromeOptions.addArguments("--disable-gpu");
+//        chromeOptions.addArguments("--disable-notifications");
+//        chromeOptions.addArguments("--disable-gpu");
         chromeOptions.addArguments("--no-sandbox");
         new DesiredCapabilities();
         DesiredCapabilities capabilities = DesiredCapabilities.chrome();
         capabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
-        capabilities.setBrowserName("chrome");
-        capabilities.setPlatform(Platform.LINUX);
-        capabilities.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.IGNORE);
+//        capabilities.setBrowserName("chrome");
+//        capabilities.setPlatform(Platform.LINUX);
+//        capabilities.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.IGNORE);
 //        capabilities.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
-       return new RemoteWebDriver(new URL("http://192.168.0.120:4444/wd/hub"), capabilities);
+       return new RemoteWebDriver(new URL("http://82.144.204.41:4444/wd/hub"), capabilities);
 
     }
 }

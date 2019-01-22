@@ -29,8 +29,8 @@ public class DownloadTest {
 
         Assert.assertEquals(driver.getCurrentUrl(), "https://www.aresearchguide.com/levels.html");
 
-        File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        FileUtils.copyFile(scrFile, new File("/Users/test/Downloads/WebDriver/DownloadTest.png"));
+//        File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+//        FileUtils.copyFile(scrFile, new File("/Users/test/Downloads/WebDriver/DownloadTest.png"));
     }
 
     @AfterClass
