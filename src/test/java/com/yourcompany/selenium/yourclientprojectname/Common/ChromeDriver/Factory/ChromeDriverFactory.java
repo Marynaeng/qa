@@ -17,7 +17,8 @@ public class ChromeDriverFactory {
     }
 
     private static ChromeDriver createLocalMac() {
-        System.setProperty("webdriver.chrome.driver", "/Users/test/Downloads/WebDriver/chromedriver");
+        System.setProperty("webdriver.chrome.driver", System.getProperty("driver.path"));
+       // ""
         return new ChromeDriver();
     }
 

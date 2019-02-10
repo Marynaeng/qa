@@ -24,8 +24,10 @@ public class RegistrationTest {
 
     @Test
     public void registration() throws Exception {
-        WebElement membershipLibrary = driver.findElement(By.xpath("/html/body/header/div/div/div[1]/div/div/span"));
-        membershipLibrary.click();
+        WebElement loginLink = driver.findElement(By.xpath("/html/body/header/div/div/div[3]/div/div[2]/span"));
+        loginLink.click();
+        WebElement signUp = driver.findElement(By.xpath("//*[@id=\"modal-login\"]/form/p[3]/a/span"));
+        signUp.click();
         WebElement becomeaMember = driver.findElement(By.xpath("//*[@id=\"subscription1\"]/div[2]/a"));
         becomeaMember.click();
         WebElement enterEmail = driver.findElement(By.xpath("//*[@id=\"bemail\"]"));
