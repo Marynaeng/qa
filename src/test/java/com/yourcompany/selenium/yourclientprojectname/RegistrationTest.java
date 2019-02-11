@@ -19,15 +19,21 @@ public class RegistrationTest {
     @BeforeClass
     public static void setup() {
         driver = ChromeDriverFactory.create();
+//        ChromeDriver driver = new ChromeDriver();
+//        driver.manage().window().maximize();
+//        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+       // driver = ChromeDriverFactory.create();
         driver.get("https://www.aresearchguide.com");
     }
 
     @Test
     public void registration() throws Exception {
-        WebElement membershipLibrary = driver.findElement(By.xpath("/html/body/header/div/div/div[1]/div/div/span"));
-        membershipLibrary.click();
-        WebElement becomeaMember = driver.findElement(By.xpath("//*[@id=\"subscription1\"]/div[2]/a"));
-        becomeaMember.click();
+        WebElement loginLink = driver.findElement(By.xpath("/html/body/header/div/div/div[3]/div/div[2]/span"));
+        loginLink.click();
+        WebElement signUp = driver.findElement(By.xpath("//*[@id=\"modal-login\"]/form/p[3]/a/span"));
+        signUp.click();
+        WebElement becomeMember = driver.findElement(By.xpath ("//*[@id=\"subscription1\"]/div[2]/a"));
+        becomeMember.click();
         WebElement enterEmail = driver.findElement(By.xpath("//*[@id=\"bemail\"]"));
         enterEmail.sendKeys("test@test.com");
         WebElement enterPassword = driver.findElement(By.xpath("//*[@id=\"password\"]"));
@@ -38,7 +44,7 @@ public class RegistrationTest {
 
         Assert.assertEquals(currentUrl.getHost(), "www.paypal.com");
 
-        ChromeDriverFactory.takeScreenshot(driver, getClass().getName(), "test");
+       // ChromeDriverFactory.takeScreenshot(driver, getClass().getName(), "test");
     }
 
     @AfterClass
