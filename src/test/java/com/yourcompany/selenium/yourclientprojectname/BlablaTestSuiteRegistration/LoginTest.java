@@ -9,7 +9,6 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import javax.swing.*;
 import java.net.URL;
 
 public class LoginTest {
@@ -19,11 +18,20 @@ public class LoginTest {
     @BeforeClass
    public static void setup() {
        driver = ChromeDriverFactory.create();
-       driver.get("https://blablawriting.com/reflective-journal-writing-skills-essay");
+       driver.get("https://blablawriting.com/");
     }
     @Test
-    public void
-
+    public void Login() throws Exception {
+        WebElement LoginLink=driver.findElement(By.xpath("/html/body/header/div[1]/div/div[3]/div/nav/a"));
+        LoginLink.click();
+        WebElement EmailInput=driver.findElement(By.xpath("//*[@id=\"user_login\"]"));
+        EmailInput.sendKeys("marina.hotinetskaya@boosta.co");
+        WebElement PasswordInput=driver.findElement(By.xpath("//*[@id=\"user_pass\"]"));
+        PasswordInput.sendKeys("123456");
+        WebElement SignINButton = driver.findElement(By.xpath("//*[@id=\"wp-submit\"]"));
+        SignINButton.click();
+        WebElement Username=driver.findElement(By.xpath("/html/body/header/div[1]/div/div[3]/div/nav/div/span"));
+        Assert.assertEquals(Username.getText(),"marina.hotinetskaya@boosta.co");
 
    }
 
