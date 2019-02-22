@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="/Users/test/IdeaProjects/qa1/src/test/java/com/yourcompany/selenium/yourclientprojectname/BlablaTestSuiteRegistration/LoginTest.java">
+        <classes>
+            <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.LoginTest">
+            </class>
+            <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.LoginNonexistentUserTest">
+            </class>
+            <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.DownloadTest">
+            </class>
+            <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.PricingLevelTest">
+            </class>
+            <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.ChoosePlanTest">
+            </class>
+            <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.RegistrationTest">
+            </class>
+            <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.ReadMoreTest">
+            </class>
+            <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.SignInTest">
+            </class>
+            <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.GetAccessButtonTest">
+            </class>
+        </classes>
+    </test>
+</suite>
