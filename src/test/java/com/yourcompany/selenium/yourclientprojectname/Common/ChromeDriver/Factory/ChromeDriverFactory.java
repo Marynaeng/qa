@@ -34,7 +34,8 @@ public class ChromeDriverFactory {
 
 
     private static WebDriver createLocal() {
-        System.setProperty("webdriver.chrome.driver", "C:\\TESTING_AVTOM\\chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver", "C:\\TESTING_AVTOM\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 
    // private static ChromeDriver createLocal() {
        // System.setProperty("webdriver.chrome.driver", System.getProperty("driver.path"));
