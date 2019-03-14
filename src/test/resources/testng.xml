@@ -1,21 +1,20 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
-          name="/Users/test/IdeaProjects/qa1/src/test/java/com/yourcompany/selenium/yourclientprojectname/LoginTest.java">
+          name="/Users/test/IdeaProjects/qa/src/test/java/com/yourcompany/selenium/yourclientprojectname/AresearchguideTestSuite">
         <classes>
-            <class name="com.yourcompany.selenium.yourclientprojectname.LoginTest">
+            <class name="com.yourcompany.selenium.yourclientprojectname.AresearchguideTestSuite.LoginTest">
             </class>
-            <class name="com.yourcompany.selenium.yourclientprojectname.LoginNotexistentUserTest">
+            <class name="com.yourcompany.selenium.yourclientprojectname.AresearchguideTestSuite.LoginNotexistentUserTest">
             </class>
-            <class name="com.yourcompany.selenium.yourclientprojectname.DownloadTest">
+            <class name="com.yourcompany.selenium.yourclientprojectname.AresearchguideTestSuite.DownloadTest">
             </class>
-            <class name="com.yourcompany.selenium.yourclientprojectname.PrintTest">
+            <class name="com.yourcompany.selenium.yourclientprojectname.AresearchguideTestSuite.PrintTest">
             </class>
-            <class name="com.yourcompany.selenium.yourclientprojectname.CopyTest">
+            <class name="com.yourcompany.selenium.yourclientprojectname.AresearchguideTestSuite.CopyTest">
             </class>
-            <class name="com.yourcompany.selenium.yourclientprojectname.RegistrationTest">
+            <class name="com.yourcompany.selenium.yourclientprojectname.AresearchguideTestSuite.RegistrationTest">
             </class>
         </classes>
     </test>

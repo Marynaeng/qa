@@ -25,7 +25,7 @@ public class SignInTest {
     public void SignIn() throws Exception {
         WebElement SignUpLink = driver.findElement(By.xpath("//*[@id=\"loginform\"]/div[3]/i/a"));
         SignUpLink.click();
-        Assert.assertEquals(driver.getCurrentUrl(), "https://blablawriting.com/packages?level=3");
+        Assert.assertEquals(driver.getCurrentUrl(), "https://blablawriting.com/packages?level=1");
     }
     @AfterTest
     public static void tearDown() throws Exception {

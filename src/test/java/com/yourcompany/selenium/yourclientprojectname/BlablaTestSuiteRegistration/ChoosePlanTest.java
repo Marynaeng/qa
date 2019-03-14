@@ -24,7 +24,7 @@ public class ChoosePlanTest {
     public void ChoosePlan() throws Exception {
         WebElement ChoosePlanButton = driver.findElement(By.xpath("/html/body/main/article/div[1]/div/div[1]/div[2]/div[2]/div[1]/a"));
         ChoosePlanButton.click();
-        Assert.assertEquals(driver.getCurrentUrl(), "https://blablawriting.com/packages?level=3");
+        Assert.assertEquals(driver.getCurrentUrl(), "https://blablawriting.com/packages?level=1");
     }
 
     @AfterTest

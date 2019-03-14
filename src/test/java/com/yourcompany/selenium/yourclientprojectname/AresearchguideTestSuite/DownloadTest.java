@@ -1,4 +1,4 @@
-package com.yourcompany.selenium.yourclientprojectname;
+package com.yourcompany.selenium.yourclientprojectname.AresearchguideTestSuite;
 
 
 import com.yourcompany.selenium.yourclientprojectname.Common.ChromeDriver.Factory.ChromeDriverFactory;

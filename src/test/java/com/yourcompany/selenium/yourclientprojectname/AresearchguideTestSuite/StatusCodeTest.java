@@ -1,4 +1,4 @@
-package com.yourcompany.selenium.yourclientprojectname;
+package com.yourcompany.selenium.yourclientprojectname.AresearchguideTestSuite;
 
 import io.restassured.RestAssured;
 import org.testng.Assert;

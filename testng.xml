@@ -2,25 +2,52 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
-          name="/Users/test/IdeaProjects/qa1/src/test/java/com/yourcompany/selenium/yourclientprojectname/BlablaTestSuiteRegistration/LoginTest.java">
+          name="C:/Users/User/IdeaProjects/qa/src/test/java/com/yourcompany/selenium/yourclientprojectname/BlablaTestSuiteRegistration">
         <classes>
-            <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.LoginTest">
-            </class>
-            <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.LoginNonexistentUserTest">
+            <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.ChoosePlanTest">
+                <methods>
+                    <include name="ChoosePlan"/>
+                </methods>
             </class>
             <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.DownloadTest">
-            </class>
-            <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.PricingLevelTest">
-            </class>
-            <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.ChoosePlanTest">
-            </class>
-            <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.RegistrationTest">
-            </class>
-            <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.ReadMoreTest">
-            </class>
-            <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.SignInTest">
+                <methods>
+                    <include name="DownloadLink"/>
+                </methods>
             </class>
             <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.GetAccessButtonTest">
+                <methods>
+                    <include name="Pricing"/>
+                </methods>
+            </class>
+            <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.LoginNonexistentUserTest">
+                <methods>
+                    <include name="Login"/>
+                </methods>
+            </class>
+            <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.LoginTest">
+                <methods>
+                    <include name="Login"/>
+                </methods>
+            </class>
+            <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.PricingLevelTest">
+                <methods>
+                    <include name="Pricing"/>
+                </methods>
+            </class>
+            <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.ReadMoreTest">
+                <methods>
+                    <include name="Readmore"/>
+                </methods>
+            </class>
+            <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.RegistrationTest">
+                <methods>
+                    <include name="registration"/>
+                </methods>
+            </class>
+            <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.SignInTest">
+                <methods>
+                    <include name="SignIn"/>
+                </methods>
             </class>
         </classes>
     </test>

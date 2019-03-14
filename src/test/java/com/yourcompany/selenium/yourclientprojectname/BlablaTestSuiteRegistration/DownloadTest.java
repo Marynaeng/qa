@@ -26,7 +26,7 @@ public class DownloadTest {
         DownloadEssay.click();
         WebElement BecomeAMember = driver.findElement(By.xpath("//*[@id=\"essay-modal\"]/div[2]/a"));
         BecomeAMember.click();
-        Assert.assertEquals(driver.getCurrentUrl(), "https://blablawriting.com/packages?level=3");
+        Assert.assertEquals(driver.getCurrentUrl(), "https://blablawriting.com/packages?level=1");
     }
     @AfterTest
     public static void tearDown() throws Exception {

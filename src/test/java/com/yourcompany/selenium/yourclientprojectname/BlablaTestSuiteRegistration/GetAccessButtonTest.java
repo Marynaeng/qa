@@ -25,7 +25,7 @@ public class GetAccessButtonTest {
     public void Pricing() throws Exception {
         WebElement GetElementButton = driver.findElement(By.xpath("/html/body/main/article/div[1]/div/div[1]/div[1]/div[2]/a"));
         GetElementButton.click();
-        Assert.assertEquals(driver.getCurrentUrl(), "https://blablawriting.com/packages?level=3");
+        Assert.assertEquals(driver.getCurrentUrl(), "https://blablawriting.com/packages?level=1");
     }
 
     @AfterTest

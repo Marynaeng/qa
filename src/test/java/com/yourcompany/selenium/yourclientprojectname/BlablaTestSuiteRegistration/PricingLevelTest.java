@@ -25,7 +25,7 @@ public class PricingLevelTest {
     public void Pricing() throws Exception {
         WebElement PricingMenu = driver.findElement(By.xpath("/html/body/header/div[1]/div/div[2]/nav/div/ul/li[5]/a"));
         PricingMenu.click();
-        Assert.assertEquals(driver.getCurrentUrl(), "https://blablawriting.com/packages?level=3");
+        Assert.assertEquals(driver.getCurrentUrl(), "https://blablawriting.com/packages?level=1");
 
     }
 

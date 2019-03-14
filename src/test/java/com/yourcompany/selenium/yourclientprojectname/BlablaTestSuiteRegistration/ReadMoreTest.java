@@ -25,7 +25,7 @@ public class ReadMoreTest {
     public void Readmore() throws Exception {
         WebElement ReadMore = driver.findElement(By.xpath("//*[@id=\"read_more\"]"));
         ReadMore.click();
-        Assert.assertEquals(driver.getCurrentUrl(), "https://blablawriting.com/packages?level=3");
+        Assert.assertEquals(driver.getCurrentUrl(), "https://blablawriting.com/packages?level=1");
     }
 
     @AfterTest
