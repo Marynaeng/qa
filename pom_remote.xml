@@ -59,7 +59,7 @@
                         <selenide.browser>chrome</selenide.browser>
                     </systemPropertyVariables>
                     <suiteXmlFiles>
-                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/Blabla_testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
