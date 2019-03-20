@@ -19,11 +19,12 @@ public class ChromeDriverFactory {
 
     public static WebDriver create() {
         WebDriver driver = null;
-        //try {
-            driver = createLocal();
-        //} //catch (MalformedURLException e) {
-            //e.printStackTrace();
-       // }
+        try {
+//            driver = createLocal();
+            driver = createRemote();
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
 
         driver.manage().window().maximize();
         driver.manage().window().setSize(new Dimension(1920, 1080));
@@ -35,7 +36,7 @@ public class ChromeDriverFactory {
 
     private static WebDriver createLocal() {
         //System.setProperty("webdriver.chrome.driver", "C:\\TESTING_AVTOM\\chromedriver.exe");
-        System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+       System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 
    // private static ChromeDriver createLocal() {
        // System.setProperty("webdriver.chrome.driver", System.getProperty("driver.path"));

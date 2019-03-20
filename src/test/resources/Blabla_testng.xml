@@ -6,47 +6,52 @@
         <classes>
             <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.ChoosePlanTest">
                 <methods>
-                    <include name="ChoosePlan"/>
+                    <include name="ChoosePlanTest"/>
                 </methods>
             </class>
             <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.DownloadTest">
                 <methods>
-                    <include name="DownloadLink"/>
+                    <include name="DownloadTest"/>
                 </methods>
             </class>
             <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.GetAccessButtonTest">
                 <methods>
-                    <include name="Pricing"/>
+                    <include name="GetAccessButtonTest"/>
                 </methods>
             </class>
             <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.LoginNonexistentUserTest">
                 <methods>
-                    <include name="Login"/>
+                    <include name="LoginNonexistentUserTest"/>
                 </methods>
             </class>
             <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.LoginTest">
                 <methods>
-                    <include name="Login"/>
+                    <include name="LoginTest"/>
                 </methods>
             </class>
             <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.PricingLevelTest">
                 <methods>
-                    <include name="Pricing"/>
+                    <include name="PricingLevelTest"/>
                 </methods>
             </class>
             <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.ReadMoreTest">
                 <methods>
-                    <include name="Readmore"/>
+                    <include name="ReadMoreTest"/>
                 </methods>
             </class>
             <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.RegistrationTest">
                 <methods>
-                    <include name="registration"/>
+                    <include name="RegistrationTest"/>
                 </methods>
             </class>
             <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.SignInTest">
                 <methods>
-                    <include name="SignIn"/>
+                    <include name="SignInTest"/>
+                </methods>
+            </class>
+            <class name="com.yourcompany.selenium.yourclientprojectname.BlablaTestSuiteRegistration.StatusCode200Test">
+                <methods>
+                    <include name="StatusCode200Test"/>
                 </methods>
             </class>
         </classes>
