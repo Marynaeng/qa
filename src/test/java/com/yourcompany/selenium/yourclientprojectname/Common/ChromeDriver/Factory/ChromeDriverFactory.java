@@ -58,7 +58,7 @@ public class ChromeDriverFactory {
         capabilities.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.IGNORE);
         capabilities.setCapability(CapabilityType.SUPPORTS_JAVASCRIPT, true);
 //        capabilities.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
-        return new RemoteWebDriver(new URL("http://159.69.235.27:4444/wd/hub"), capabilities);
+        return new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
 
     }
 
